@@ -1,2 +1,2 @@
-# devopspractice
-Practicing devops projects
+# DevOps-projects
+All DevOps related projects
