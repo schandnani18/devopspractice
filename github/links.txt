@@ -1,0 +1,2 @@
+https://github.com/pratiksponde/JenkinsPipeline-EKS-SpringBoot-Application?tab=readme-ov-file
+https://github.com/wakaleo/game-of-life
