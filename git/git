@@ -1,0 +1,2 @@
+#to push new branch to upstream branch
+git push --set-upstream origin <branch name>
