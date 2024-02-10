@@ -1,0 +1,11 @@
+#to push new branch to upstream branch
+git push --set-upstream origin <branch name>
+git merge -- to merge a branch to another branch
+git rebase to change base of a branch
+git cherry-pick to pick changes from a specific commit
+git reset --hard // --soft to unstage changes made since last commit
+git log / --online
+git branch -r / lists remote branches
+git merge --no-ff
+git interactice commit
+git checkout <commit id>
