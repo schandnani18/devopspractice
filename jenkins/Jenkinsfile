@@ -1,0 +1,13 @@
+node{
+
+        stage ('git pull code') {
+            git branch: 'main', url: 'https://github.com/kalvapradyumnareddy/springboot-app'
+        }
+        stage ('building with maven') {
+            sh 'mvn clean package'
+        }
+        stage ('building docker image') {
+            sh 'sudo docker build . --tag springappimage:${BUILD_NUMBER}'
+        }
+
+}
